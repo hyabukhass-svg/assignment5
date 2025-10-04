@@ -1,0 +1,40 @@
+/*
+  Name: Huda Abukhass
+  Date: 10.03.2025
+  CSC 372-01
+
+  This CSS file provides the styling for the Rock-Paper-Scissors game.
+  It includes layout formatting, image highlighting, and button styles.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+.choices img {
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 10px;
+}
+
+.choices img.selected {
+  border-color: blue;
+}
+
+#computer img {
+  width: 100px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+  Name: Huda Abukhass
+  Date: 10.03.2025
+  CSC 372-01
+
+  This is the index.html page for my Rock-Paper-Scissors game. The user can select a move,
+  the computer will shuffle and choose its move, and the winner is displayed along with
+  a running score tracker and reset option.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+
+  <!-- Player Section -->
+  <section id="player">
+    <h2>Your Choice</h2>
+    <div class="choices">
+      <img src="images/scissors.PNG" alt="Scissors" id="scissors" class="choice">
+      <img src="images/rock.PNG" alt="Rock" id="rock" class="choice">
+      <img src="images/paper.PNG" alt="Paper" id="paper" class="choice">
+    </div>
+  </section>
+
+  <!-- Computer Section -->
+  <section id="computer">
+    <h2>Computer's Choice</h2>
+    <div class="comp-choice">
+      <img src="images/question-mark.PNG" alt="Computer choice" id="computer-image">
+    </div>
+  </section>
+
+  <!-- Outcome Section -->
+  <section id="outcome">
+    <h2>Result</h2>
+    <p id="result">Make your move!</p>
+  </section>
+
+  <!-- Scoreboard -->
+  <section id="score">
+    <h2>Score</h2>
+    <p>Wins: <span id="wins">0</span></p>
+    <p>Losses: <span id="losses">0</span></p>
+    <p>Ties: <span id="ties">0</span></p>
+    <button id="reset">Reset</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
